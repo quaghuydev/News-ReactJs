@@ -1,4 +1,5 @@
 {
+  "homepage": "https://quaghuydev.github.io/News-ReactJs/",
   "name": "mdb-react-template",
   "version": "6.0.0",
   "description": "template for mdb-react-ui-kit",
@@ -42,6 +43,8 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-app-rewired build",
     "start-proxy": "react-scripts start --proxy http://localhost:3000/trang-chu",
     "test": "react-app-rewired test",
@@ -67,6 +70,7 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
+    "gh-pages": "^5.0.0",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.62.0"
   }
