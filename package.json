@@ -46,7 +46,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-app-rewired build",
-    "start-proxy": "react-scripts start --proxy http://localhost:3000/trang-chu",
+    "start-proxy": "react-scripts start --proxy https://quaghuydev.github.io/News-ReactJs/trang-chu",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
